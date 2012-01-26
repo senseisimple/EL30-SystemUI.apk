@@ -1932,6 +1932,8 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
 
+    return-void
+
     .line 2027
     const/16 v0, 0xd
 
