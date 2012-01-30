@@ -72,6 +72,14 @@
 
     move-result v2
 
+    if-nez v2, :cond_0
+
+    const-string v2, "android.net.wimax.WIMAX_AUTH_ERROR"
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
     if-eqz v2, :cond_1
 
     .line 59
